@@ -1,0 +1,72 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "LENOVO",
+    "Product": "20BUS0QT0A"
+  },
+  "BIOS": {
+    "Vendor": "LENOVO",
+    "Version": "JBET49WW (1.14 )"
+  },
+  "CPU": [
+    {
+      "Vendor": "GenuineIntel",
+      "Family": "6",
+      "Model": "61",
+      "Stepping": "4"
+    }
+  ],
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "1616"
+    }
+  ],
+  "RAM": 7.9,
+  "Partitions": [
+    118.7
+  ],
+  "Screens": [
+    {
+      "Resolution": "1600x900",
+      "Frequency": "60.01"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Timezone": "Asia/Kolkata",
+  "Install": {
+    "Media": "Ubuntu 18.04 LTS \"Bionic Beaver\" - Release amd64 (20180426)",
+    "Type": "GTK",
+    "PartitionMethod": "manual",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": true,
+    "RestrictedAddons": true,
+    "Stages": {
+      "0": "language",
+      "1": "language",
+      "5": "console_setup",
+      "15": "wireless",
+      "107": "prepare",
+      "119": "partman",
+      "185": "partman",
+      "186": "partman",
+      "190": "partman",
+      "191": "partman",
+      "226": "partman",
+      "246": "partman",
+      "249": "start_install",
+      "256": "timezone",
+      "262": "usersetup",
+      "290": "user_done",
+      "574": "done"
+    }
+  }
+}
